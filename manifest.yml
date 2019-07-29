@@ -1,0 +1,7 @@
+---
+applications:
+- name: conduit-app
+  memory: 32M
+  instances: 1
+  health-check-type: process
+  no-route: true
